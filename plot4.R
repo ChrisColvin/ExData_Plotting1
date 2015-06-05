@@ -34,7 +34,7 @@
             plot(Date_Time,Sub_metering_1,ylab = "Energy sub metering",xlab = "", type = "l", col = "black") 
             lines(Date_Time,Sub_metering_2,col = "red")
             lines(Date_Time,Sub_metering_3, col = "blue")
-            legend("topright", legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), col = c("black","red","blue"), lty = 1)
+            legend("topright", bty = "n", legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), col = c("black","red","blue"), lty = 1)
           ## Row 1, column 2
             plot(Date_Time,Voltage, ,xlab = "datetime", type = "l")  
           ## Row 2, column 2
